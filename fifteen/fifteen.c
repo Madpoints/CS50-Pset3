@@ -162,7 +162,6 @@ void init(void)
     // create a value using d to represent the maximum value on any given board (d * d)-1
     int maxTile = (d * d) - 1;
 
-
     // using nested for loops iterate in descending order from the maxTile to 1
     for (int row = 0; row < d; row++)
         for (int col = 0; col < d; col++)
