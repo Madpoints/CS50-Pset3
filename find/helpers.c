@@ -49,7 +49,9 @@ void sort(int values[], int n)
         for (int j = i + 1; j < n; j++)
         {
             if (values[minimumValue] > values[j])
+            {
                 minimumValue = j;
+            }
         }
 
             temp = values[minimumValue];
